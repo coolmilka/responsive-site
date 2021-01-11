@@ -13,4 +13,29 @@ html {
 body {
   font-family: "Montserrat", sans-serif;
   position: relative;
+  background-color: #333;
+}
+
+// NAV
+
+nav {
+  text-transform: uppercase;
+
+  a,
+  i {
+    color: #fff;
+    transition: color 0.3s;
+  }
+  a:hover {
+    color: #039dff;
+  }
+  i {
+    padding: 10px;
+  }
+  .navbar-brand {
+    font-weight: bold;
+  }
+  .active {
+    color: #039ddf;
+  }
 }
