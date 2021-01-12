@@ -16,6 +16,9 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" media="screen and (min-width: 576px)" href="css/small.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px)" href="css/medium.css">
+    <link rel="stylesheet" media="screen and (min-width: 992px)" href="css/large.css">
     <script
       src="https://kit.fontawesome.com/08a568cf81.js"
       crossorigin="anonymous"
@@ -25,7 +28,9 @@
     <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"
-          ><i class="fas fa-headset"></i> progamers</a
+          ><i class="fas fa-headset"></i> pro<span class="blue-text"
+            >gamers</span
+          ></a
         >
         <button
           class="navbar-toggler"
@@ -51,6 +56,23 @@
         </div>
       </div>
     </nav>
+
+    <header>
+      <div class="hero-img">
+        <div class="hero-shadow"></div>
+        <div class="hero-text">
+          <h1>witajcie w pro<span class="blue-text">gamers</span></h1>
+          <p>W miejscu, gdzie gry tworymy z pasją!</p>
+          <a class="btn btn-outline-light" href="#aboutus">
+            poznaj nas!
+          <a/>
+        </div>
+        <i class="fas fa-chevron-down"></i>
+      </div>
+    </header>
+
+    <div class="test" style="height: 100vh"></div>
+    <div id="aboutus"></div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
