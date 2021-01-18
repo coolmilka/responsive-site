@@ -8,5 +8,6 @@ header .fa-chevron-down {
   font-size: 30px;
   -webkit-animation: bounce 1.6s infinite;
           animation: bounce 1.6s infinite;
+  color: #fff;
 }
 /*# sourceMappingURL=large.css.map */
